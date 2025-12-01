@@ -105,29 +105,7 @@ Shipping type performance
 
 The dashboard presents everything in an interactive and easy-to-understand way.
 
-▶️ How to Run This Project
-1. SQL
 
-Open SQL Server
-
-Import the dataset
-
-Run queries from cutSQLQuery1.sql
-
-2. Python Notebook
-
-Run:
-
-jupyter notebook
-
-
-and open the .ipynb file for EDA.
-
-3. Power BI Dashboard
-
-Install Power BI Desktop
-
-Open customer_behavior.pbix
 
 🏁 Final Thoughts
 
