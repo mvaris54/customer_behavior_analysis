@@ -1,141 +1,141 @@
-📊 Customer Shopping Behavior Analysis — README
-📌 Project Overview
+📊 Customer Shopping Behavior — Data Analysis Project
 
-This project analyzes Customer Shopping Behavior using SQL, Jupyter Notebook, and a Power BI Dashboard.
-The goal is to understand buying patterns, product preferences, revenue distribution, and customer segmentation through data-driven insights.
+Understanding how customers shop can help businesses improve product placement, pricing, discounts, and overall user experience.
+This project explores a real-world shopping dataset using SQL, Python, and Power BI to uncover insights hidden inside the data.
 
-The project includes:
+🔍 What This Project Covers
 
-SQL Queries for business analysis
+This analysis focuses on answering practical business questions such as:
 
-Jupyter Notebook for exploration & visualization
+Who spends more — male or female customers?
 
-Power BI dashboard for an interactive report
+Do customers using discounts still contribute high revenue?
 
-Various KPIs related to customers, products, revenue & reviews
+Which products have the best ratings?
 
-🛠️ Tech Stack Used
+Which shipping type brings higher average purchase value?
 
-SQL Server — Data querying and analysis
+Do subscribers actually spend more?
 
-Jupyter Notebook (Python) — EDA & visualizations
+Which age groups generate maximum revenue?
 
-Power BI — Interactive dashboard
+Which products are the most popular within each category?
 
-CSV Dataset — Customer behavior dataset
+How loyal are customers based on their purchase history?
 
-📁 Project Structure
-📦 Customer Shopping Behavior
+These results help understand customer patterns and improve business decisions.
+
+🧰 Tools & Technologies
+Purpose	Technology
+Data Querying	SQL Server
+EDA + Visuals	Python (Jupyter Notebook)
+Dashboard	Power BI Desktop
+Dataset	Customer Shopping Behavior CSV
+📂 Project Files
+📁 Customer Shopping Behavior Project
 │
-├── cutSQLQuery1.sql            # All SQL queries for analysis
-├── Customer_Shoping_Behavior.ipynb   # Python Notebook analysis
-├── customer_behavior.pbix      # Power BI Dashboard
-└── README.md                   # Project documentation
+├── cutSQLQuery1.sql                 → All SQL questions & solutions  
+├── Customer_Shoping_Behavior.ipynb  → Notebook for EDA + charts  
+├── customer_behavior.pbix           → Interactive Power BI dashboard  
+└── README.md                        → Documentation  
 
-🧠 Key Insights & Analysis
+🧠 Key SQL Analysis (Short Summary)
+1. Revenue by Gender
 
-Below are the SQL analysis questions included in this project.
-(Iss list me sari queries tumhare SQL file se li hui hain.)
+Measured total purchase value contributed by male and female shoppers.
 
-1️⃣ Revenue by Gender
+2. Discount Users Who Still Spend High
 
-Identifies how much male vs female customers spend.
+Identified customers who applied discounts but still spent more than average.
 
-2️⃣ High-spending Discount Users
+3. Top-Rated Products
 
-Finds customers who used a discount but still spent above the average purchase amount.
+Listed top 5 products with highest average review ratings.
 
-3️⃣ Top 5 Products with Highest Ratings
+4. Shipping Type Comparison
 
-Ranks products based on average review score.
+Compared avg purchase amount for Standard vs Express shipping.
 
-4️⃣ Average Purchase: Standard vs Express Shipping
+5. Subscriber vs Non-Subscriber Spending
 
-Compares customer spending based on shipping type.
+Calculated:
 
-5️⃣ Do Subscribed Customers Spend More?
-
-Compares:
-
-Average spend
+Avg spend
 
 Total revenue
 
-Total customer count
-between subscribers vs non-subscribers.
+Number of customers
 
-6️⃣ Highest Discount Usage Products
+6. Products with Highest Discount Usage
 
-Top 5 products where discounts were used the most.
+Top 5 items with maximum discount-applied purchases.
 
-7️⃣ Customer Segmentation
+7. Customer Segments
 
-Customers are grouped as:
+Classified customers as:
+New, Returning, Loyal based on previous purchases.
 
-New
+8. Category-wise Most Purchased Items
 
-Returning
+Found top 3 items for each product category.
 
-Loyal
+9. Repeat Buyers & Subscription
 
-8️⃣ Top 3 Products per Category
+Analyzed subscription trend among buyers with 5+ previous purchases.
 
-Finds category-wise best-selling items.
+10. Revenue by Age Group
 
-9️⃣ Repeat Buyers vs Subscription
-
-Checks how likely repeat buyers (more than 5 purchases) are to subscribe.
-
-🔟 Revenue by Age Group
-
-Shows which age groups contribute the most revenue.
+Identified age groups contributing maximum sales.
 
 📊 Power BI Dashboard Highlights
 
-Your PBIX file includes KPIs such as:
+Total revenue summary
 
-Total Revenue
-
-Avg Purchase Amount
-
-Customer Segments
+Age group analysis
 
 Category-wise sales
 
-Discount usage
+Rating distribution
 
-Shipping type comparison
+Customer segmentation visuals
 
-Review rating analysis
+Discount and subscription impact
 
-The dashboard provides highly visual insights for better decision-making.
+Shipping type performance
 
-📌 How to Run the Project
-▶️ 1. Run SQL Analysis
+The dashboard presents everything in an interactive and easy-to-understand way.
 
-Open SQL Server Management Studio (SSMS).
+▶️ How to Run This Project
+1. SQL
 
-Import customer table.
+Open SQL Server
 
-Run the queries from cutSQLQuery1.sql.
+Import the dataset
 
-▶️ 2. Run Jupyter Notebook
+Run queries from cutSQLQuery1.sql
+
+2. Python Notebook
+
+Run:
+
 jupyter notebook
 
 
-Open Customer_Shoping_Behavior.ipynb to view:
+and open the .ipynb file for EDA.
 
-EDA
-
-Python insights
-
-▶️ 3. Run Power BI Dashboard
+3. Power BI Dashboard
 
 Install Power BI Desktop
 
 Open customer_behavior.pbix
 
-View visuals & slices interactively
-Open customer_behavior.pbix
+🏁 Final Thoughts
 
-View visuals & slices interactively
+This project gives a complete end-to-end analysis of customer behavior using clean SQL logic, Python visuals, and a professional Power BI report.
+It's ideal for:
+
+Academic submission
+
+Portfolio showcase
+
+Business analytics learning
